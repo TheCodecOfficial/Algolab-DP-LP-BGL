@@ -6,7 +6,7 @@ General tips:
 
 - You can use `LP.set_r` to change the relation of a single constraint. For example `LP.set_r(i, CGAL::LARGER)` will set the relation of constraint i to larger.
 - You can turn any LP into a maximization problem by negating the objective function. Don't forget to negate the resulting value again.
-- When we want to minize the $L_\infin$ norm of some values $x_1,x_2,...,x_n$, we can use LP. We introduce an unknown $M$ that is bigger than all $|x_1|,|x_2|,...,|x_n|$. I.e. we add two constraints $M\geq x_i$ and $M\geq -x_i$ for all $i$. When we then minimize $M$, we effectively minimize the maximum norm.
+- When we want to minize the $L_\infty$ norm of some values $x_1,x_2,...,x_n$, we can use LP. We introduce an unknown $M$ that is bigger than all $|x_1|,|x_2|,...,|x_n|$. I.e. we add two constraints $M\geq x_i$ and $M\geq -x_i$ for all $i$. When we then minimize $M$, we effectively minimize the maximum norm.
 
 ### Augean Stables
 
