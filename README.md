@@ -48,6 +48,8 @@ d(p,l)=\frac{ax+by+c}{\sqrt{a^2+b^2}}&\geq v\cdot R\\\\
     ax+by-v\cdot\sqrt{a^2+b^2}\cdot R&\geq -c
 \end{align}$$
 
+Finally, we maximize $R$.
+
 ### Harry Potter
 
 Approach: LP + Binary Search
