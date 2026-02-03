@@ -14,7 +14,7 @@ Approach: LP (feasibility check) + Sliding Window
 
 **LP**
 
-We need to check if Hercules can clean the stalls given a certain amount of hours of work on river Alpheius and on Peneius. We don't need to optimize anything, so we don't have to set the objective function. We're only interested in the (in)fesibility, i.e. `sol.is_infeasible()`.
+We need to check if Hercules can clean the stalls given a certain amount of hours of work on river Alpheius and on Peneius. We don't need to optimize anything, so we don't have to set the objective function. We're only interested in the (in)feasibility, i.e. `sol.is_infeasible()`.
 
 **Sliding Window**
 
