@@ -126,7 +126,6 @@ Assuming it can be satisfied, we can now compute the length of each sewage pipe,
 
 To minimize the length of the longest fresh water pipe, we can introduce another unknown $M$ that "captures" this value. We add a constraint $l\leq M$ for each length $l$ and then minimize $M$.
 
-
 ## Dynamic Programming
 
 ### Lord Voldemort
@@ -182,7 +181,7 @@ Notice that DP[i-l][j-1] + l covers both cases.
 
 I didn't solve this one. But here's two well documented approaches:
 
-- 6D DP: https://github.com/MariSchn/ETH-Algorithms-Lab-2024/tree/main/Week_13/Fighting_Pits_of_Meereen
+- 6D DP 💀: https://github.com/MariSchn/ETH-Algorithms-Lab-2024/tree/main/Week_13/Fighting_Pits_of_Meereen
 - Non-DP: https://github.com/simon-hrabec/Algolab-2020/tree/main/problems/Week%2011%20-%20Fighting%20Pits%20of%20Meereen
 
 ### Severus Snape
