@@ -42,11 +42,11 @@ We need to ensure a consistent orientation of all the lines. We check the sign o
 
 We have an unknown non-negative variable $R$ which denotes a kind of "danger radius". The signed distance of our point to all the lines should be greater than $R$, meaning that the point is safe. Furthermore, we can multiply $R$ with the speed $v$ of a legion to incorporate the speed. Instead of the legions moving faster, our danger radius for that legion grows faster. Then
 
-$$
-d(p,l)=\frac{ax+by+c}{\sqrt{a^2+b^2}}\geq v\cdot R\\\\
-    ax+by+c\geq v\cdot\sqrt{a^2+b^2}\cdot R\\\\
-    ax+by-v\cdot\sqrt{a^2+b^2}\cdot R\geq -c
-$$
+$$\begin{align}
+d(p,l)=\frac{ax+by+c}{\sqrt{a^2+b^2}}&\geq v\cdot R\\\\
+    ax+by+c&\geq v\cdot\sqrt{a^2+b^2}\cdot R\\\\
+    ax+by-v\cdot\sqrt{a^2+b^2}\cdot R&\geq -c
+\end{align}$$
 
 ### Harry Potter
 
@@ -112,11 +112,12 @@ A line (canal) can be modeled with a normal $n$ and X or Y intercept. We can ass
 
 A common house $p_c=(x,y)$ has to lie on the right side of the sewage canal:
 
-$$
-n_s\cdot(p_c - p_s)\geq 0\\\\
-(1, N)\cdot(x-X,y)\geq 0\\\\
-x - X + y \cdot N\geq 0\\\\
--X + y \cdot N\geq x\\\\
+$$\begin{align}
+n_s\cdot(p_c - p_s)&\geq 0\\
+(1, N)\cdot(x-X,y)&\geq 0\\
+x - X + y \cdot N&\geq 0\\
+-X + y \cdot N&\geq x
+\end{align}
 $$
 
 For common houses, we invert the constraint: $X - y \cdot N\geq -x$.
